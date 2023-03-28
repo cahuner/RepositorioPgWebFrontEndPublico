@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(206, 213, 221);
+    margin-top: 10px;
+    font-family: 'Staatliches', cursive;
+}
+
+.contenedor{
+    margin: 0 auto;
+    width: 80%;
+    background-image: url("../imagenes/fondo2.jpg");
+    padding: 20px;
+    min-height: 1000px;
+    max-height: 1200px;
+}
+
+header{
+    background-color:rgb(155, 155, 155);
+    padding: 10px;
+}
+
+header img{
+    width: 10%;
+    min-width: 100px;
+}
+
+header h1{
+    margin-left: 20px;
+    color: rgb(30, 73, 75);
+}
+
+header img, header h1{
+    display:inline-block;
+    vertical-align:middle;
+    font-size: 4em;
+    padding-bottom: 10px;
+}
+
+/* Menu horizontal*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(136, 136, 136);
+  }
+  
+nav ul li {
+    float: left;
+  }
+  
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav ul li a:hover:not(.activa) {
+    background-color: #111;
+  }
+  
+nav .activa {
+    background-color:rgb(95, 139, 139);
+  }
+
+  /*Fin menu horizontal*/
+
+  /*Menu vertical*/
+
+  .vertical-menu {
+    width: 100%; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Staatliches', cursive;
+    text-align: left;
+  }
+  
+  .vertical-menu a {
+    background-color:rgb(71, 109, 109); 
+    color: white;
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+    background-color: rgb(198, 228, 228); 
+    color: rgb(66, 68, 68);
+  }
+  
+  .vertical-menu a.active {
+    background-color: rgb(121, 156, 156); 
+    color: white;
+  }
+
+
+
+  /*Fin menu vertical*/
+.menu{
+    float: left;
+    width: 15%;
+    min-width: 200px;
+    min-height: 740px;
+    background: darkslategrey;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family:monospace;
+}
+
+.menu h3{
+    font-size: 20px;
+}
+
+.principal{
+    float: right;
+    width: 75%;
+    padding: 10px;
+}
+
+.principal h2{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.principal img{
+    width: 50%;
+    border:cadetblue solid 5px;
+    margin: 20px;
+}
+
+.principal h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.principal ol{
+    padding: 10px;
+    text-align: left;
+}
+
+.principal ul{
+    padding: 20px;
+}
+
+.principal p{
+    padding: 10px;
+}
+
+.principal table{
+    width: 50%;
+}
+
+.principal table td{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    background: rgb(161, 161, 161);
+    min-height: 50px;
+    padding: 10px 0;
+    text-align: center;
+}
